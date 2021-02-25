@@ -15,7 +15,7 @@ def find_shortest_path(graph, start, goal):
     # print("TCL: cost", cost)
 
     while temp_graph:
-        min_cost_node = None #min_distance_node
+        min_cost_node = None
 
         for node in temp_graph:
             if min_cost_node is None:
